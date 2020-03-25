@@ -3,10 +3,21 @@ body
     background-image: url("../images/bg.jpg");
 }
 
+header
+{
+    background: url("../images/banner.jpg") no-repeat;
+    height: 400px;
+    width: 1500px;
+    margin: auto;
+    text-align: center;
+}
+
 header h1
 {
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;    
+    color: whitesmoke;
 }
 
 section
