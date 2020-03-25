@@ -13,8 +13,8 @@ const fetchUser = () => {
 
             user_card.appendChild(document.createElement("h1")).innerHTML = "Carte de visite";
 
-            addElement(users, user_card, "p", "username", index);
-            addElement(users, user_card, "p", "name", index);
+            addElement(users, user_card, "h2", "username", index);
+            addElement(users, user_card, "h3", "name", index);
             addElement(users, user_card, "p", "email", index);
             
             /* sous élément address */
